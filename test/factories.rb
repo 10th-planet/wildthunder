@@ -11,6 +11,12 @@ FactoryGirl.define do
   factory :lesson do
     title 'Gettig Started'
     subtitle 'What are tags?'
+    association :section
+  end
+
+  factory :section do
+    title "Chapter 1"
+    association :course
   end
 
   factory :course do

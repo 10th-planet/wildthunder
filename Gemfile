@@ -41,7 +41,8 @@ gem 'simple_form'
 gem 'table_print'
 
 group :development, :test do
-  gem "pry-rails"
+  gem 'pry-rails'
+  gem 'minitest-reporters'
 end
 
 group :test do
