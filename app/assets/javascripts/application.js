@@ -8,9 +8,11 @@
 // compiled file.
 //
 // Read Sprockets README (https://github.com/sstephenson/sprockets#sprockets-directives) for details
-// about supported directives.
+// about supported directives.s
 //
 //= require jquery
 //= require bootstrap-sprockets
 //= require jquery_ujs
 //= require_tree .
+
+//= require jquery-ui
