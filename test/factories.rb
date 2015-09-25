@@ -24,4 +24,11 @@ FactoryGirl.define do
     description 'The Best HTML Course'
     cost 15
   end
-end
+
+  factory :charge do
+    sequence :email do |n|
+      "rasalter#{n}@gmail.com"
+    card_number 4242-4242-4242-4242
+    expiration 10/18 
+    cvc 411
+  end
